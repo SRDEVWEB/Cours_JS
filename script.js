@@ -8,4 +8,14 @@ function bonjour()
 
     let numberOfEpisodes=12;
     document.getElementById('episodes').innerHTML= numberOfEpisodes;
+
+    let episodeTime =45;
+    document.getElementById('tpsepisodes').innerHTML= episodeTime;
+
+    let commercialTime =5;
+    document.getElementById('tpspub').innerHTML= commercialTime;
+
+    let totalShowTime = episodeTime+commercialTime;
+    document.getElementById('tpstotal').innerHTML= totalShowTime;
+
 }
