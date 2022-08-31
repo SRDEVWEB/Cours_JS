@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans&family=Roboto:wght@100&display=swap');
+:root {
+    --color-Noir:#000000;
+    --color-P:#9e9e9e;  /*Black Text min 66% opacity */
+    --color-P-Light:#cfcfcf; /*Black Text min 58% opacity */
+    --color-P-Dark:#707070; /*White Text min 93% opacity */
+    --color-S:#ced7db; /*Black Text min 57% opacity */
+    --color-S-Light:#ffffff; /*Black Text min 54% opacity */
+    --color-S-Dark:#9da6a9; /*Black Text min 64% opacity */
+    --color-Blanc:#fcfcfc;
+    font-family: 'Quattrocento Sans', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    --h-tailles: calc(0.01*11vmin)
+}
+
+*, ::before, ::after{
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-S-Dark);
+    color: var(--color-Noir);
+    font-size: calc(24*var(--h-tailles));
+}
+
+body{
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-S-Dark);
+    color: var(--color-Noir);
+    font-size: calc(24*var(--h-tailles));
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+span{
+    font-weight:bold;
+}
+
+#bienvenue{
+    color: var(--color-Blanc);
+}
