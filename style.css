@@ -39,3 +39,11 @@ span{
 #bienvenue{
     color: var(--color-Blanc);
 }
+
+div{
+    padding-left: 50px;
+}
+
+li{
+    margin-left: 50px;
+}
