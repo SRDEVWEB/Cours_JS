@@ -18,4 +18,7 @@ function bonjour()
     let totalShowTime = (numberOfSeasons*(numberOfEpisodes*(episodeTime+commercialTime)))/60;
     document.getElementById('tpstotal').innerHTML= totalShowTime;
 
+    let paragraph = document.querySelector('.info');
+    paragraph.innerText = `${numberOfSeasons} seasons, ${numberOfEpisodes} episodes per season.
+
 }
